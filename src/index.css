@@ -11,3 +11,97 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.container {
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1320px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.navbar {
+  background-color: #f8f9fa;
+  margin-bottom: 1rem!important;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.logoInto {
+  font-size: 20px;
+}
+.cart {
+  width: 24px;
+}
+.main {
+  display: flex;
+}
+.sidebar {
+  width: 25%;
+
+}
+.listSidebar {
+  display: flex;
+  flex-direction: column;
+}
+.sidebarItem {
+  padding: 12px;
+  border: 1px solid rgba(0,0,0,.125);
+  border-width: 0 0 1px;
+}
+.col {
+ flex: 1 0;
+}
+.mainCard {
+  flex-basis: 28%;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+}
+.card {
+  border: 1px solid #f1f1f1;
+  padding: 20px;
+}
+.cardImg {
+  text-align: center;
+}
+h4 {
+  font-size: 1.5rem;
+  margin-bottom: .5rem;
+  margin-top: 0;
+  display: inline-block;
+  margin-right: 10px;
+  font-weight: 500;
+}
+.nameDiv {
+  font-size: 20px;
+  color: grey;
+}
+.buttonDiv {
+  box-sizing: border-box;
+}
+.button {
+  width: 100%!important;
+  color: #fff;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  border-radius: .25rem;
+  font-family: inherit;
+}
+strike {
+  color: #d3d3d3;
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.img {
+  height: 180px;
+}
